@@ -1,0 +1,45 @@
+// import { Action } from "@ngrx/store";
+
+// export interface StoreInterface {
+//   counter: Counter
+// }
+
+// interface Counter {
+//   n: number
+// }
+
+// let initialState = {
+//   n: 0
+// }
+
+// export function counterReducer(state = initialState, action: Action) {
+
+//   switch (action.type) {
+//     case "incremeant":
+//       return {
+//         n: state.n + 1
+//       };
+//     case "decreament":
+//       return {
+//         n: state.n - 1
+//       };
+//     default:
+//       return state;
+//   }
+
+// }
+//----------------------------------------------
+
+// state management:
+
+// component "observes" the state
+// reducer interacts with the state
+// reducer resposible to update the state!!
+
+// component observes the actions
+
+// 1 - npm install--save @ngrx/store
+// 2 - import { StoreModule, Store } from '@ngrx/store';
+// 3 - create a reducer function that will be used by store module.
+// 4 -
+
